@@ -10,11 +10,13 @@ window.onload = () => {
 const darkTheme = () => {
     document.documentElement.className = 'dark'
     document.querySelector('#dark-light-icon').setAttribute('class', 'bi-sun-fill text-secondary')
+    document.getElementById('dark-light-icon').innerHTML = " Light Mode"
 }
 
 const lightTheme = () => {
     document.documentElement.className = 'light'
     document.querySelector('#dark-light-icon').setAttribute('class', 'bi bi-moon-fill text-secondary')
+    document.getElementById('dark-light-icon').innerHTML = " Dark Mode"
 }
 
 document.querySelector('#dark-light').addEventListener('click', () => {
