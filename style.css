@@ -2,32 +2,40 @@
 
 /*Light and Dark effect*/
 :root {
-    --primary-color: #000;
-    --primary-font: 'Libre Baskerville', serif;
-  }
-  
-  :root.dark {
-    --bg-color: rgb(15, 33, 43);
-    --text-color: #fff;
-  }
-  
-  :root.light {
-    --bg-color: #6c9398;
-    --text-color: rgb(0, 0, 0);
-  }
-  
-  body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-  }
+  --primary-color: #000;
+  --primary-font: 'Libre Baskerville', serif;
+}
 
-  footer .container-fluid i {
-    font-size: 1.5rem;
-    transition: all 500ms;
-  }
+:root.dark {
+  --bg-color: rgb(15, 33, 43);
+  --text-color: #fff;
+}
 
-  footer .container-fluid i:hover {
-    font-size: 35px;
-    font-size-adjust: 5px;
-    cursor: pointer;
-  }
+:root.light {
+  --bg-color: #6c9398;
+  --text-color: rgb(0, 0, 0);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+footer .container-fluid i {
+  font-size: 1.5rem;
+  transition: all 500ms;
+}
+
+footer .container-fluid i:hover {
+  font-size: 35px;
+  font-size-adjust: 5px;
+  cursor: pointer;
+}
+
+.synopsis-title {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.synopsis-text {
+  font-family: 'Inter', sans-serif;
+}
